@@ -77,3 +77,27 @@ body {
     opacity:750%;
 }
 
+#batuMan-color {
+    border-radius: 50px;
+    padding-right: 5px;
+}
+
+#kertasMan-color {
+    border-radius: 50px;
+}
+
+#guntingMan-color {
+    border-radius: 50px;
+}
+
+#batuCom-color {
+    border-radius: 50px;
+}
+
+#kertasCom-color {
+    border-radius: 50px;
+}
+
+#guntingCom-color {
+    border-radius: 50px;
+}
