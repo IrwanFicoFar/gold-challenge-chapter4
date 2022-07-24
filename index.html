@@ -9,6 +9,85 @@
     <title>Document</title>
 </head>
 <body>
+<div class="container-fluid">
+    <div class="row header">
+        <div class="col-lg-1 pt-2">
+            <svg width="36" height="38" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M35.0039 37.8633L0.09375 22.4648V17.4375L35.0039 0V8.4375L10.957 19.582L35.0039 29.4609V37.8633Z" fill="#724C21"/>
+            </svg>                
+        </div>
+        <div class="col-lg-1">
+            <img src="assets/logo.png" alt="logo" class="logo" >
+        </div>
+        <div class="col-lg-4">
+            <h1>ROCK PAPER SCISSORS</h1>
+        </div>
+    </div>
+    <!--player start-->
+    <div class="row text-center">
+        <div class="col-lg-2 offset-md-3">
+            <h1 id="player">PLAYER 1</h1>
+        </div>
+        <div class="col-lg-2 offset-md-2">
+            <h1 id="com">COM</h1>
+        </div>
+    </div>
+    <!--end player-->
+
+    <!--game start-->
+    <div class="row">
+        <div class="col-lg-2 offset-md-3  text-center" id="batuMan-color">           
+            <img src="assets/batu.png" alt="batu-man" class="image" id="batuMan-img" onclick="clickBatuMan()" >
+        </div>
+        <div class="col-lg-2 offset-md-2 text-center" id="batuCom-color">
+            <img src="assets/batu.png" alt="batu-com" class="image" >
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-2 offset-md-3 text-center" id="kertasMan-color">
+            <img src="assets/kertas.png" alt="kertas-man" class="image" id="kertasMan-img" onclick="clickKertasMan()">
+        </div>
+
+    <!-- Result start -->
+        <div class="col-lg-2 ">
+            <h1 id="result" class="vs" >VS</h1>
+        </div>
+    <!-- end Result -->
+
+        <div class="col-lg-2 text-center" id="kertasCom-color">
+            <img src="assets/kertas.png" alt="kertas-com" class="image">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-2 offset-md-3 text-center" id="guntingMan-color">
+            <img src="assets/gunting.png" alt="gunting-man" class="image" id="guntingMan-img" onclick="clickGuntingMan()">
+        </div>
+
+        <div class="col-lg-2 offset-md-2 text-center" id="guntingCom-color">
+            <img src="assets/gunting.png" alt="gunting-com" class="image">
+        </div>
+    </div>
+
+    <!-- refresh start -->
+    <div class="row">
+        <div class="col-lg text-center pb-5">
+            <img src="assets/refresh.png" alt="refresh" class="imageRefresh" id="refresh" >
+        </div>
+    </div>
+    <!-- end refresh -->
+
+    <!-- generatNumber start -->
+    <div class="row">
+        <div class="col-lg text-center pb-5">
+            <h1 id="gen-num" ></h1>
+        </div>
+    </div>
+    <!-- end generatNumber -->
+
+    <!--end game-->
+    
+</div>
+
 
 
 
