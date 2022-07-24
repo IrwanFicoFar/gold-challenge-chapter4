@@ -97,7 +97,7 @@ const comWin = () => {
 
 const draw = () => {
     genNum()
-    myResult.innerText = "DRAW"
+    myResult.innerText = "DRAW CUY"
     myResult.classList.remove("vs")
     myResult.classList.remove("final-result-man-win")
     myResult.classList.remove("final-result-com-win")

@@ -3,7 +3,7 @@ body {
 }
 
 .header {
-    padding: 30px;
+    padding: 20px;
 }
 
 .logo {
@@ -12,9 +12,10 @@ body {
 }
 
 .image {
-    width: 100px;
-    height: 100px;
-    margin: 45px;
+    width: 80px;
+    height: 80px;
+    margin: 30px;
+
 }
 
 .imageRefresh {
@@ -23,7 +24,7 @@ body {
 }
 
 .vs {
-    font-size: 150px;
+    font-size: 100px;
     text-align: center;
     padding: 10px 0;
     color: blueviolet;
@@ -42,32 +43,38 @@ body {
 .final-result-man-win {
     padding-bottom: 30px;
     padding-top: 30px;
-    font-size: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 30px;
     background-color: green;
     color: aliceblue;
     transform: rotate(30deg);
     text-align: center;
-   
   }
 
 .final-result-com-win {
     padding-bottom: 30px;
     padding-top: 30px;
-    font-size: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 30px;
     background-color: red;
     color: aliceblue;
     transform: rotate(-30deg);
     text-align: center;
-
   }
 
 .final-result-draw {
     padding-bottom: 30px;
     padding-top: 30px;
-    font-size: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 30px;
     background-color: blue;
     color: aliceblue;
     text-align: center;
+    align-items: center;
+    /* margin-top: 20px; */
   }
 
 
@@ -95,7 +102,6 @@ body {
 
 #batuMan-color {
     border-radius: 50px;
-    padding-right: 5px;
 }
 
 #kertasMan-color {
