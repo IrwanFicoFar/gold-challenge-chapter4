@@ -77,7 +77,7 @@ const genNumManWin = () => {
 // result display changing 
 const manWin = () => {
     genNum()
-    myResult.innerText = `${myName.toUpperCase()} WIN`
+    myResult.innerText = `${myName.toUpperCase()}\nWIN`
     myResult.classList.remove("vs")
     myResult.classList.remove("final-result-com-win")
     myResult.classList.remove("final-result-draw")
@@ -87,7 +87,7 @@ const manWin = () => {
 
 const comWin = () => {
     genNum()
-    myResult.innerText = "COM WIN"
+    myResult.innerText = "COM\nWIN"
     myResult.classList.remove("vs")
     myResult.classList.remove("final-result-man-win")
     myResult.classList.remove("final-result-draw")
@@ -97,7 +97,7 @@ const comWin = () => {
 
 const draw = () => {
     genNum()
-    myResult.innerText = "DRAW CUY"
+    myResult.innerText = "DRAW\nCUY"
     myResult.classList.remove("vs")
     myResult.classList.remove("final-result-man-win")
     myResult.classList.remove("final-result-com-win")
